@@ -12,10 +12,12 @@ Install python3
 1. Create file `config.json` at the same location as where you want to run the script.
 2. Inside copy and paste the contents of `config.json.sample` into `config.json`
 3. Modify the contents of the `config.json` accordingly. 
-    `club` value should be "3226" for the anytime fitness at Burnaby Metrotown.
-    `keyfob` value can be found on your keyfob.
-    `times` are "day":"time" values, where "time" is in 24 hour time format
-    and "day" is the day you want to go to the gym. i.e. "1" - Monday "3" - Wednesday.
+    <ol>
+    <li>`club` value should be "3226" for the anytime fitness at Burnaby Metrotown.</li>
+    <li>`keyfob` value can be found on your keyfob.</li>
+    <li>`times` are "day":"time" values, where "time" is in 24 hour time format
+    and "day" is the day you want to go to the gym. i.e. "1" - Monday "3" - Wednesday.</li>
+    </ol>
 4.  Run the script with `python3 book-slot.py`.
 
 ## How to automate the script?(Mac) 
