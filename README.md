@@ -1,14 +1,14 @@
-## What's this script for?##
+## What's this script for?
 This script is used to book a slot from https://reserve.anytimefitness.com/. 
 The script books a time slot two days from the day the script runs. 
 For example, if I run the script on Monday morning,
 it will book a time slot(that I specify in the config.json) for Wednesday.
 This is so that I can book the time slot right when it is made available to the public. 
 
-## Prerequisite ## 
+## Prerequisite 
 Install python3 
 
-##How to use the script?##
+##How to use the script?
 1. Create file `config.json` at the same location as where you want to run the script.
 2. Inside copy and paste the contents of `config.json.sample` into `config.json`
 3. Modify the contents of the `config.json` accordingly. 
@@ -18,7 +18,7 @@ Install python3
     and "day" is the day you want to go to the gym. i.e. "1" - Monday "3" - Wednesday.
 4.  Run the script with `python3 book-slot.py`.
 
-## How to automate the script?(Mac) ##
+## How to automate the script?(Mac) 
 1. Create a python virtual env `python3 env` 
     at the same location as where you want to run the script.
 2. Move `com.anytime.fitness.plist` to `~/Library/LaunchAgents`
