@@ -8,7 +8,7 @@ This is so that I can book the time slot right when it is made available to the 
 ## Prerequisite 
 Install python3 
 
-##How to use the script?
+## How to use the script?
 1. Create file `config.json` at the same location as where you want to run the script.
 2. Inside copy and paste the contents of `config.json.sample` into `config.json`
 3. Modify the contents of the `config.json` accordingly. 
